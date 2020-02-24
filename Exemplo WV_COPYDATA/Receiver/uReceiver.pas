@@ -29,7 +29,7 @@ procedure TForm1.WMCopyData(var Msg: TWMCopyData);
 var
  xCMD: TMinhaEstrutura;
 begin
-  xCMD := TMinhaEstrutura(Msg.CopyDataStruct.lpData);
+  xCMD := TMinhaEstrutura(Msg.CopyDataStruct.lpData^);
 
   mmMessages.Lines.Add(xCMD.mensagem);
 end;
