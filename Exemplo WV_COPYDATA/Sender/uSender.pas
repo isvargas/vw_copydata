@@ -32,14 +32,14 @@ var
 begin
   xHandle := FindWindow(nil, 'Receiver');
 
-  xCMD.status := 1; //carregamos o xCMD com todas as informaÁıes que precisamos
-  xCMD.mensagem := 'teste';
+  xCMD.status := 1; //carregamos o xCMD com todas as informa√ß√µes que precisamos
+  xCMD.mensagem := Edit1.Text;
 
-  //Aqui vamos utilizar o TCopyDataStruct para copiar a estrutura do record e envi·-la para o outro processo
+  //Aqui vamos utilizar o TCopyDataStruct para copiar a estrutura do record e envi√°-la para o outro processo
   xSendCMD.cbData := SizeOf(xCMD);
   xSendCMD.lpData := @xCMD;
 
-  //Aqui enviamos de fato a mensagem (O SendMessage manda a mensagem de forma sÌncrona, j· o PostMessage manda de forma assÌncrona)
+  //Aqui enviamos de fato a mensagem (O SendMessage manda a mensagem de forma s√≠ncrona, j√° o PostMessage manda de forma ass√≠ncrona)
   SendMessage(xHandle, WM_COPYDATA, 0, Integer(@xSendCMD));
 
   ShowMessage('Mensagem enviada.');
