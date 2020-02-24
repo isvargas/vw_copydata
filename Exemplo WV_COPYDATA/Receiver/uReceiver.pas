@@ -30,7 +30,6 @@ var
  xCMD: TMinhaEstrutura;
 begin
   xCMD := TMinhaEstrutura(Msg.CopyDataStruct.lpData^);
-
   mmMessages.Lines.Add(xCMD.mensagem);
 end;
 
