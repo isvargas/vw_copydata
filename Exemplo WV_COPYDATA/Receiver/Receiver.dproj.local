@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/01/21 18:47:58.000.925,=C:\Users\Ivan Vargas\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/01/21 18:51:43.000.008,=C:\Users\Ivan Vargas\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/01/22 15:58:35.000.569,=C:\Users\Ivan Vargas\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/02/24 15:30:05.986,=C:\Users\Ivan Vargas\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/02/24 15:30:23.241,C:\Users\Ivan Vargas\Desktop\Exemplo WV_COPYDATA\Receiver\uReceiver.dfm=C:\Users\Ivan Vargas\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2020/02/24 15:30:23.241,C:\Users\Ivan Vargas\Desktop\Exemplo WV_COPYDATA\Receiver\uReceiver.pas=C:\Users\Ivan Vargas\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/02/24 15:30:26.443,C:\Users\Ivan Vargas\Desktop\Exemplo WV_COPYDATA\Receiver\Receiver.dproj=C:\Users\Ivan Vargas\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2020/02/24 15:31:36.622,=C:\Users\Ivan Vargas\Desktop\Exemplo WV_COPYDATA\Comum\MinhaEstrutura.pas</Transaction>
+  </Transactions>
+</BorlandProject>
